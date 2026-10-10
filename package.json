@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "Production-Ready Cafe Ruang Namu - Real QRIS Payment & POS System",
   "private": true,
-  "workspaces": [
-    "client",
-    "server"
-  ],
   "scripts": {
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "dev:server": "npm --prefix server run dev",
