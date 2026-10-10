@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production builds
+dist/
+client/dist/
+
+# Environment variables & Secrets
+.env
+server/.env
+*.env.local
+
+# Local SQLite databases (schema & seed auto-creates)
+server/data/*.db
+server/data/*.db-wal
+server/data/*.db-shm
+
+# Logs & Editor
+logs/
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
